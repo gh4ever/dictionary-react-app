@@ -20,7 +20,6 @@ export default function Dictionary() {
         <input
           type="search"
           placeholder="Search for a word"
-          autoFocus={true}
           className="form-control search-input"
           onChange={handleKeywordChange}
         />

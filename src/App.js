@@ -1,4 +1,5 @@
 import logo from './logo.png'
+import Dictionary from './Dictionary'
 import './App.css'
 
 export default function App() {
@@ -6,7 +7,6 @@ export default function App() {
     <div className="App">
       <div className="Container">
         <header className="App-header">
-          ERIKA
           <a
             href="https://www.youtube.com/watch?v=_heFIAa3hA0"
             target="_blank"

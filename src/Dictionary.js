@@ -6,7 +6,8 @@ export default function Dictionary(props) {
   let [keyword, setKeyword] = useState('')
 
   function handleResponse(response) {
-    console.log(response.data)
+    console.log(response.data[0])
+    alert(`I love ${keyword}!`)
   }
 
   function search(event) {

@@ -6,7 +6,7 @@ export default function Dictionary() {
 
   function handleSubmit(event) {
     event.preventDefault()
-    alert(`Searching for the ${keyword}!`)
+    alert(`Searching for the word!`)
   }
 
   function handleKeywordChange(event) {

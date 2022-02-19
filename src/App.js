@@ -10,7 +10,7 @@ export default function App() {
           <a
             href="https://www.youtube.com/watch?v=_heFIAa3hA0"
             target="_blank"
-            rel="norefferer"
+            rel="noopener"
           >
             <img src={logo} className="App-logo img-fluid" alt="gh4ever logo" />
           </a>
@@ -21,7 +21,7 @@ export default function App() {
           <a
             href="https://github.com/gh4ever/dictionary-react-app"
             target="_blank"
-            rel="norefferer"
+            rel="noopener"
           >
             Erika 🏉
           </a>{' '}
@@ -29,7 +29,7 @@ export default function App() {
           <a
             href="https://jovial-aryabhata-079e94.netlify.app"
             target="_blank"
-            rel="norefferer"
+            rel="noopener"
           >
             Netflify
           </a>

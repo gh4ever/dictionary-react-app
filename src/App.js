@@ -16,7 +16,7 @@ export default function App() {
             <img src={logo} className="App-logo img-fluid" alt="gh4ever logo" />
           </a>
         </header>
-        <Dictionary defaultKeyword="cat" />
+        <Dictionary />
         <Result />
         <footer>
           This dictionary is built by{' '}

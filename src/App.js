@@ -1,5 +1,6 @@
 import logo from './logo.png'
 import Dictionary from './Dictionary'
+import Result from './Result'
 import './App.css'
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
           </a>
         </header>
         <Dictionary defaultKeyword="valentine" />
+        <Result defaultKeyword="valentine" />
         <footer>
           This dictionary is built by{' '}
           <a

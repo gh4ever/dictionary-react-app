@@ -1,13 +1,14 @@
 import React, { useState } from 'react'
 import axios from 'axios'
+import Result from './Result'
 import './Dictionary.css'
 
 export default function Dictionary(props) {
   let [keyword, setKeyword] = useState('')
+  let [result, setResult] = useState(null)
 
   function handleResponse(response) {
-    console.log(response.data[0])
-    alert(`I love ${keyword}!`)
+    setResult(response.data[0])
   }
 
   function search(event) {
@@ -25,7 +26,7 @@ export default function Dictionary(props) {
     <div className="Dictionary">
       <section>
         <form onSubmit={search}>
-          <label>What words do you want to know?</label>
+          <label>What word do you want to know?</label>
           <br />
           <input
             type="search"
@@ -38,6 +39,7 @@ export default function Dictionary(props) {
         </form>
         <small className="hint">i.e. pink, cheshire, cat, with, stripe</small>
       </section>
+      <Result result={result} />
     </div>
   )
 }

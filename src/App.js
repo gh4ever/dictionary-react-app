@@ -16,8 +16,8 @@ export default function App() {
             <img src={logo} className="logo" alt="logo" />
           </a>
         </header>
-        <Dictionary />
-        <Result />
+        <Dictionary defaultKeyword="cat" />
+        <Result defaultKeyword="cat" />
         <footer>
           This dictionary is built by{' '}
           <a

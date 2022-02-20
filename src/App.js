@@ -9,7 +9,7 @@ export default function App() {
       <div className="Container">
         <header className="App-header">
           <a
-            href="https://www.youtube.com/watch?v=_heFIAa3hA0"
+            href="https://youtu.be/_heFIAa3hA0"
             target="_blank"
             rel="noopener noreferrer"
           >

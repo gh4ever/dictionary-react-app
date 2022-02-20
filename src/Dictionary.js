@@ -37,7 +37,7 @@ export default function Dictionary(props) {
             onChange={handleKeywordChange}
           />
         </form>
-        <small className="hint">i.e. pink, cheshire, cat, with, stripe</small>
+        <small className="hint">i.e. pink, cat, with, stripe</small>
       </section>
       <Result result={result} />
     </div>

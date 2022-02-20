@@ -13,7 +13,7 @@ export default function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={logo} className="App-logo img-fluid" alt="gh4ever logo" />
+            <img src={logo} className="logo" alt="logo" />
           </a>
         </header>
         <Dictionary />

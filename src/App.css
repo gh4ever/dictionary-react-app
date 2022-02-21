@@ -19,3 +19,11 @@
 .App a {
   color: #6c63ff;
 }
+
+.App .github {
+  max-width: 15px;
+}
+
+.App .netflify {
+  max-width: 15px;
+}

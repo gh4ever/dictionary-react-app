@@ -1,4 +1,6 @@
 import logo from './logo.png'
+import github from './github.png'
+import netflify from './netflify.png'
 import Dictionary from './Dictionary'
 import Result from './Result'
 import './App.css'
@@ -19,21 +21,20 @@ export default function App() {
         <Dictionary defaultKeyword="cat" />
         <Result defaultKeyword="cat" />
         <footer>
-          This dictionary is built by{' '}
+          This dictionary is built by Erika 🏉{' '}
           <a
             href="https://github.com/gh4ever/dictionary-react-app"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Erika 🏉
+            <img src={github} className="github" alt="github" />
           </a>{' '}
-          and is published on{' '}
           <a
             href="https://jovial-aryabhata-079e94.netlify.app"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Netflify
+            <img src={netflify} className="netflify" alt="netflify" />
           </a>
         </footer>
       </div>

@@ -1,27 +1,23 @@
 .Phonetic {
-  height: 60px;
+  margin: 20px 0 0;
 }
 
-h2 {
-  margin-top: 5px;
-  margin-bottom: 25px;
-  font-weight: 700;
-  font-size: 40px;
+.Phonetic h2 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #666666;
+  display: inline;
 }
 
 .Phonetic a {
-  border: 1px solid #ddd;
+  color: #6c63ff;
+  font-weight: normal;
+  margin-right: 15px;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 8px 18px;
+  border: 1px solid #dddddd;
+  border-radius: 50px;
   text-decoration: none;
-  padding: 10px 20px;
-  border-radius: 20px;
-  margin-right: 10px;
-}
-
-.Phonetic a hover {
-  color: #a941b0;
-}
-
-.Phonetic .text1 {
-  opacity: 0.5;
-  font-weight: bold;
 }

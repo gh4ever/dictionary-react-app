@@ -21,7 +21,7 @@ export default function App() {
         <Dictionary defaultKeyword="pink" />
         <Result defaultKeyword="pink" />
         <footer>
-          This dictionary is built by Erika 🏉{' '}
+          This 💋Cheshire Cat🙀 dictionary is built by Erika{' '}
           <a
             href="https://github.com/gh4ever/dictionary-react-app"
             target="_blank"

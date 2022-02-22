@@ -35,6 +35,14 @@ export default function App() {
             rel="noopener noreferrer"
           >
             <img src={netflify} className="netflify" alt="netflify" />
+          </a>{' '}
+          & Special thanks to{' '}
+          <a
+            href="https://www.shecodes.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            SheCodes
           </a>
         </footer>
       </div>

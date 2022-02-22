@@ -18,8 +18,8 @@ export default function App() {
             <img src={logo} className="logo" alt="logo" />
           </a>
         </header>
-        <Dictionary defaultKeyword="cat" />
-        <Result defaultKeyword="cat" />
+        <Dictionary defaultKeyword="pink" />
+        <Result defaultKeyword="pink" />
         <footer>
           This dictionary is built by Erika 🏉{' '}
           <a

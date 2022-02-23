@@ -5,13 +5,13 @@
 .rhap_container {
   box-shadow: none;
   align-items: center;
-  color: #ce86aa;
+  color: #ff4499;
   align-items: flex-start;
   margin-left: -20px;
 }
 
 .rhap_container svg {
-  color: #ce86aa;
+  color: #ff4499;
 }
 
 span {

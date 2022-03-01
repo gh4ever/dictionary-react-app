@@ -25,7 +25,6 @@ export default function App() {
                     changeTheme(darkMode ? themes.light : themes.dark)
                   }}
                 >
-                  <i className={darkMode ? 'fas fa-sun' : 'fas fa-moon'}></i>
                   <span className="d-lg-none d-md-block">Switch mode</span>
                 </Button>
               )}
@@ -39,8 +38,8 @@ export default function App() {
             <img src={logo} className="logo" alt="logo" />
           </a>
         </header>
-        <Dictionary defaultKeyword="wonderland" />
-        <Result defaultKeyword="wonderland" />
+        <Dictionary defaultKeyword="fast" />
+        <Result defaultKeyword="fast" />
         <footer>
           This 💋Cheshire Cat🙀 dictionary is built by Erika{' '}
           <a

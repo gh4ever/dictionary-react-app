@@ -38,8 +38,8 @@ export default function App() {
             <img src={logo} className="logo" alt="logo" />
           </a>
         </header>
-        <Dictionary defaultKeyword="fast" />
-        <Result defaultKeyword="fast" />
+        <Dictionary defaultKeyword="wonderland" />
+        <Result defaultKeyword="wonderland" />
         <footer>
           This 💋Cheshire Cat🙀 dictionary is built by Erika{' '}
           <a

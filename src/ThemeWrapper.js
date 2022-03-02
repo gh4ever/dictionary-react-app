@@ -12,10 +12,10 @@ export default function ThemeContextWrapper(props) {
     switch (theme) {
       case themes.light:
         document.body.classList.add('white-content')
-        document.body.classList.remove('black-contet')
+        document.body.classList.remove('black-context')
         break
       case themes.dark:
-        document.body.classList.add('black-content')
+        document.body.classList.add('black-context')
         document.body.classList.remove('white-content')
         break
       default:

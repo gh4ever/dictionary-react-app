@@ -30,6 +30,7 @@
   border: 1px solid #ddd;
   border-radius: 6px;
   width: 100%;
+  caret-color: #8899ee;
 }
 
 .Dictionary input {

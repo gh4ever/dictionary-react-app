@@ -3,33 +3,13 @@ import github from './github.png'
 import netflify from './netflify.png'
 import Dictionary from './Dictionary'
 import Result from './Result'
-import { ThemeContext, themes } from './ThemeContext'
-import { Button, InputGroup } from 'reactstrap'
-import React, { useState } from 'react'
 import './App.css'
 
 export default function App() {
-  const [darkMode, setDarkMode] = useState(true)
-
   return (
     <div className="App">
       <div className="Container">
         <header className="App-header">
-          <InputGroup>
-            <ThemeContext.Consumer>
-              {({ changeTheme }) => (
-                <Button
-                  color="link"
-                  onClick={() => {
-                    setDarkMode(!darkMode)
-                    changeTheme(darkMode ? themes.light : themes.dark)
-                  }}
-                >
-                  <span className="d-lg-none d-md-block">Switch mode</span>
-                </Button>
-              )}
-            </ThemeContext.Consumer>
-          </InputGroup>{' '}
           <a
             href="https://youtu.be/_heFIAa3hA0"
             target="_blank"
@@ -38,8 +18,8 @@ export default function App() {
             <img src={logo} className="logo" alt="logo" />
           </a>
         </header>
-        <Dictionary defaultKeyword="wonderland" />
-        <Result defaultKeyword="wonderland" />
+        <Dictionary defaultKeyword="fast" />
+        <Result defaultKeyword="fast" />
         <footer>
           This 💋Cheshire Cat🙀 dictionary is built by Erika{' '}
           <a
